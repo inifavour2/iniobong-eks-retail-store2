@@ -10,7 +10,7 @@ Production-ready deployment of AWS Retail Store Sample Application on Amazon EKS
 
 This project demonstrates the deployment of a microservices-based retail application on Amazon EKS using Infrastructure as Code (Terraform) and GitOps principles.
 
-**Author**: Iniobong  
+**Author**: Iniobong Favour Pender-Atanaruno 
 **Date**: October 2025  
 **Institution**: AltSchool Africa - Cloud Engineering Program
 
@@ -35,7 +35,7 @@ This project demonstrates the deployment of a microservices-based retail applica
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/iniobong-eks-retail-store2.git
+git clone https://github.com/inifavour2/iniobong-eks-retail-store2.git
 cd iniobong-eks-retail-store2
 ```
 
@@ -114,7 +114,7 @@ terraform destroy
 
 ## 📧 Contact
 
-**Name**: Iniobong  
+**Name**: Iniobong Favour Pender-Atanaruno
 **Email**: ini.favour@gmail.com  
 **Project**: AltSchool Cloud Engineering - Month 2 Assessment
 
