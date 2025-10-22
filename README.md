@@ -115,7 +115,7 @@ terraform destroy
 ## 📧 Contact
 
 **Name**: Iniobong  
-**Email**: [Your Email]  
+**Email**: ini.favour@gmail.com  
 **Project**: AltSchool Cloud Engineering - Month 2 Assessment
 
 ## 📄 License
