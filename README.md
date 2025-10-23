@@ -10,6 +10,33 @@ Production-ready deployment of AWS Retail Store Sample Application on Amazon EKS
 
 ## 🚀 Project Overview
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 This project demonstrates the deployment of a microservices-based retail application on Amazon EKS using Infrastructure as Code (Terraform) and GitOps principles.
 
 **Author**: Iniobong Favour Pender-Atanaruno 
@@ -18,6 +45,33 @@ This project demonstrates the deployment of a microservices-based retail applica
 
 ## 📋 Architecture
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 - **Platform**: Amazon EKS (Kubernetes 1.28)
 - **Infrastructure**: Terraform
 - **Deployment**: Helm Charts
@@ -25,6 +79,33 @@ This project demonstrates the deployment of a microservices-based retail applica
 - **CI/CD**: GitHub Actions
 
 ## 🛠️ Quick Start
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 
 ### Prerequisites
 - AWS CLI v2.x
@@ -69,6 +150,33 @@ kubectl get ingress -n default
 ```
 
 ## 📁 Project Structure
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 ```
 iniobong-eks-retail-store2/
 ├── terraform/eks/minimal/     # Infrastructure as Code
@@ -79,6 +187,33 @@ iniobong-eks-retail-store2/
 ```
 
 ## 🔐 Features Implemented
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 
 ### Core Requirements ✅
 - [x] Infrastructure as Code (Terraform)
@@ -95,6 +230,33 @@ iniobong-eks-retail-store2/
 
 ## 💰 Cost Estimation
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 **~$275/month** (us-east-1)
 - EKS Cluster: $72
 - EC2 Nodes (3x t3.medium): $90
@@ -104,11 +266,65 @@ iniobong-eks-retail-store2/
 
 ## 📚 Documentation
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 - [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)
 - [Developer Access](./DEVELOPER_ACCESS_VERIFIED.md)
 - [Architecture Overview](./docs/DEPLOYMENT_GUIDE.md#architecture-overview)
 
 ## 🧹 Cleanup
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 ```bash
 cd terraform/eks/minimal
 terraform destroy
@@ -116,21 +332,129 @@ terraform destroy
 
 ## 📧 Contact
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 **Name**: Iniobong Favour Pender-Atanaruno
 **Email**: ini.favour@gmail.com  
 **Project**: AltSchool Cloud Engineering - Month 2 Assessment
 
 ## 📄 License
 
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
+
 This project was created for educational purposes as part of AltSchool Africa's Cloud Engineering program.
 
 ## 🙏 Acknowledgments
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 
 - AltSchool Africa Cloud Engineering Program
 - AWS Retail Store Sample App
 - AWS EKS Documentation
 
 ## 🔄 CI/CD Pipeline
+
+## 🚀 Deployment Method
+
+### Manual Deployment (Intentional Choice)
+
+This project uses **manual deployment** following DevOps best practices for educational projects.
+
+**Why Manual?**
+- 🔒 **Security**: No AWS credentials stored in GitHub
+- 💰 **Cost Control**: Prevents accidental automated deployments  
+- 📚 **Learning**: Hands-on experience with each deployment step
+- ✅ **Appropriate**: Standard for educational/assessment projects
+
+**Deployment Status**: ✅ All services deployed and running
+
+See [Deployment Approach](../.github/workflows/DEPLOYMENT_APPROACH.md) for detailed rationale.
+
+### Quick Verification
+```bash
+# Check application status
+kubectl get pods -n default
+
+# All pods should show: Running (5/5)
+```
+
+**For CI/CD in Production**: See deployment documentation for how this would be automated using OIDC, ArgoCD, and GitOps principles.
+
 
 ### Automated Validation
 The GitHub Actions workflow automatically validates:
