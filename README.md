@@ -1,8 +1,10 @@
 # InnovateMart EKS Retail Store Deployment
 
+[![Terraform Validation](https://github.com/inifavour2/iniobong-eks-retail-store2/actions/workflows/terraform-validation.yml/badge.svg)](https://github.com/inifavour2/iniobong-eks-retail-store2/actions/workflows/terraform-validation.yml)
 [![Terraform](https://img.shields.io/badge/Terraform-v1.6.0-623CE4?logo=terraform)](https://www.terraform.io/)
 [![AWS EKS](https://img.shields.io/badge/AWS-EKS-FF9900?logo=amazon-aws)](https://aws.amazon.com/eks/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.28-326CE5?logo=kubernetes)](https://kubernetes.io/)
+
 
 Production-ready deployment of AWS Retail Store Sample Application on Amazon EKS.
 
