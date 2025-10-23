@@ -127,3 +127,33 @@ This project was created for educational purposes as part of AltSchool Africa's 
 - AltSchool Africa Cloud Engineering Program
 - AWS Retail Store Sample App
 - AWS EKS Documentation
+
+## 🔄 CI/CD Pipeline
+
+### Automated Validation
+The GitHub Actions workflow automatically validates:
+- ✅ Terraform configuration syntax
+- ✅ Terraform formatting
+- ✅ Documentation completeness
+- ✅ Project structure
+
+### Manual Deployment
+For this educational project, infrastructure is deployed manually:
+```bash
+# Deploy infrastructure
+cd terraform/eks/minimal
+terraform init
+terraform apply
+
+# Deploy application
+helm upgrade --install ui ./src/ui/chart
+# ... additional services
+```
+
+**Why Manual?**
+- Educational focus on understanding deployment process
+- Avoids AWS costs from automated deployments
+- Security best practice for learning projects
+- Aligns with assessment requirements
+
+See [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md) for complete instructions.
